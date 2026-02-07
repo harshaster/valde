@@ -8,8 +8,8 @@ const sliding = ref(false);
 const left = ref(0);
 const answered = ref(false);
 
-const sound = new Audio('/crossing_nothing.mp3');
-const resp = new Audio('/answer.m4a');
+const sound = new Audio('/valde/crossing_nothing.mp3');
+const resp = new Audio('/valde/answer.m4a');
 sound.volume = 0.7;
 sound.play();
 
