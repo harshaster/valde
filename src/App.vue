@@ -5,7 +5,7 @@ import MainScene from './components/main-scene.vue';
 import Stage3 from './components/stage-3.vue';
 import RoomScene from './components/room-scene.vue';
 
-const state = ref(1);
+const state = ref(0);
 const timerCount = 10;
 const timer = ref(timerCount);
 let timerInstance;
