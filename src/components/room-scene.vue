@@ -17,7 +17,7 @@
             <h3>Here are your gifts</h3>
             <div class="items">
                 <div class="item" v-for="item in selectedData.gifts" :key="item">
-                    <img :src="'/public/' + item" alt="">
+                    <img :src="'/valde/' + item" alt="">
                 </div>
             </div>
             <div class="contents" v-html="selectedData.letter">
